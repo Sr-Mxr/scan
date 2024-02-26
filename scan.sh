@@ -4,7 +4,7 @@
 mostrar_banner() {
     echo -e "\e[1;33m"
     echo "************************************"
-    echo "*          SCAN-IP                 *"
+    echo "*          S C A N - I P           *"
     echo "************************************"
     echo -e "\e[0m"
 }
