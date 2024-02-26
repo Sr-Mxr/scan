@@ -1,13 +1,18 @@
 #!/bin/bash
 
-# Función para imprimir el título en color amarillo y negrita
-print_title() {
-    echo -e "\e[1;36m$1\e[0m"
+# Función para mostrar el banner
+mostrar_banner() {
+    echo -e "\e[1;33m"
+    echo "************************************"
+    echo "*          SCAN-IP                 *"
+    echo "************************************"
+    echo -e "\e[0m"
 }
 
-print_title "SCAN-IP"
+# Inicio del script
+mostrar_banner
 
-echo "Introduce la IP que deseas escanear:"
+echo "Introduce la dirección IP que deseas escanear:"
 read -p "IP: " ip
 
 echo "Selecciona una opción de escaneo:"
@@ -59,3 +64,4 @@ case $opcion in
         echo "Opción no válida. Saliendo..."
         ;;
 esac
+
