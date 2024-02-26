@@ -2,7 +2,7 @@
 
 # Función para imprimir el título en color amarillo y negrita
 print_title() {
-    echo -e "\e[1;50m$1\e[0m"
+    echo -e "\e[1;36m$1\e[0m"
 }
 
 print_title "SCAN-IP"
