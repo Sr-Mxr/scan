@@ -2,6 +2,8 @@
 # By: Mxr
 
 This Bash script allows you to perform network scans using the Nmap tool. It provides various options to suit your scanning needs.
+Download: git clone https://github.com/Sr-Mxr/scan.git
+        
 
 ## Usage
 
